@@ -1,2 +1,2 @@
-# yashavijaykumar.github.io
-Created a simple webpage
+# simplewebsite
+Created this very simple website in my spare time.

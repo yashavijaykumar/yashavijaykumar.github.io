@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <title>TEACH FOR INDIA</title>
+<link href="common.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="main">
+<div data-role="page">
+  <div data-role="header">
+  </div>
+
+  <div id="pageone" data-role="main" class="ui-content">
+
+  <h1>GAURAANG</h1>
+  <h2>Details</h2>
+
+  <p>Age: 10yrs</p>
+  <p>Date of Birth: 1/10/2005</p>
+  <p>Studying in: 4th std.</p>
+  <p>Roll No: DHA15009</p>
+
+
+<a href="#myPopup" data-rel="popup" data-position-to="window"><button onclick="validate()">English Reading Comprehension
+
+</button>  </a>
+
+    <div data-role="popup" id="myPopup">
+      <p>This is the line chart!</p> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="gauraangrc.png" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+  </div>
+
+
+    <a href="#maPopup" data-rel="popup" data-position-to="window"><button onclick="validate1()">Math Mastery</button></a>
+
+    <div data-role="popup" id="maPopup">
+      <p>This is the column chart!</p> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="gauraangmath.png" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
